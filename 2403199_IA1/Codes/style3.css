@@ -1,0 +1,138 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    min-height: 100vh;
+    background-color: rgb(8, 8, 8);
+    background-size: cover;
+    background-position: center;
+    color:cornflowerblue;
+    width: 100%;
+}
+
+header{
+    background: none;
+    color: chartreuse;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+ header h1{
+    margin-bottom: 10px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 10px;
+
+}
+
+nav ul li{
+    display: inline;
+    margin: 10px;
+
+}
+
+nav ul li a{
+    color: chartreuse;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
+
+main{
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: rgba(24, 24, 24, 0.705);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+
+}
+
+section{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: chocolate;
+    margin-bottom: 10px;
+
+}
+
+h3{
+    color: chocolate;
+    margin-bottom: 20px;
+
+}
+
+footer{
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(24, 24, 24, 0.705);
+    color: crimson;
+    position:relative;
+    bottom: 0;
+    max-width: 800px;
+    flex: 1;
+    margin: auto;}
+
+#myimg{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer; 
+}    
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+    nav ul li{
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+.socials{
+    color: blueviolet;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+video{
+    transform: rotate(270deg);
+    margin: 1px;
+    width: 400px;
+}
+
+.index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    text-align: right;
+    color: blue;
+}
